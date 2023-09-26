@@ -1,0 +1,20 @@
+{
+  "name": "lkt/perm",
+  "description": "LKT Perm",
+  "type": "library",
+  "version": "1.0.0",
+  "require": {
+    "php": ">=8.1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5",
+    "symfony/var-dumper": "^6.2"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Lkt\\": "src",
+      "Lkt\\Tests\\": "tests"
+    }
+  }
+}
